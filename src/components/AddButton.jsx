@@ -8,7 +8,7 @@ export default function AddButton({ setShowAddGroup }) {
 
   return (
     <div id="add-button" onClick={onClick}>
-      <img id="add" src="../assets/add.svg" alt="" />
+      <img id="add" src="assets/add.svg" alt="" />
     </div>
   );
 }
