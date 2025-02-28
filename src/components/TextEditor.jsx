@@ -6,8 +6,6 @@ export default function TextEditor({ groupId, notes, setNotes }) {
   const [text, setText] = useState("");
 
   function onSend() {
-    console.log(text);
-    
     if (text) {
       const note = {
         id: "note-" + Date.now(),
