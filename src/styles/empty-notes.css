@@ -1,0 +1,13 @@
+
+#empty-notes {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-text {
+    font-size: 46px;
+    font-weight: 900;
+}

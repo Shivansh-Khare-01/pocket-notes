@@ -1,0 +1,19 @@
+
+#add-button {
+    background-color: #16008B;
+    border-radius: 100%;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+
+img#add {
+    width: 20px;
+    height: 20px;
+}

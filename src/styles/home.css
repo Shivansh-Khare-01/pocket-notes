@@ -1,0 +1,29 @@
+
+#home {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#group-select {
+  min-width: 300px;
+  flex: 1 0 15%;
+}
+
+#notes {
+  background-color: #DAE5F5;
+  flex: 5 0 30%;
+}
+
+@media (max-width: 769px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .mobile-only {
+    display: none !important;
+  }
+}

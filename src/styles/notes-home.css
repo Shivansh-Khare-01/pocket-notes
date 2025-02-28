@@ -1,0 +1,22 @@
+
+#notes-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+#notes-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+    #back-button {
+        display: none;
+    }   
+}

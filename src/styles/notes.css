@@ -1,0 +1,13 @@
+
+#notes-editor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #dae5f5;
+    height: 100vh;
+}
+
+#notes-area {
+    overflow: auto;
+    height: 100%;
+}
