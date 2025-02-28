@@ -4,7 +4,7 @@ export default function EmptyNotes() {
   return (
     <div id="empty-notes">
       <img
-        src="../assets/empty-notes.svg"
+        src="assets/empty-notes.svg"
         alt="no notes in group"
       />
       <div id="main-text">Pocket Notes</div>

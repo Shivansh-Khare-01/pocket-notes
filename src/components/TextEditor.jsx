@@ -48,13 +48,13 @@ export default function TextEditor({ groupId, notes, setNotes }) {
         <img
           id="send-icon"
           onClick={onSend}
-          src="../assets/send-active.svg"
+          src="assets/send-active.svg"
           alt="send button"
         />
       ) : (
         <img
           id="send-icon"
-          src="../assets/send-inactive.svg"
+          src="assets/send-inactive.svg"
           alt="send button"
         />
       )}

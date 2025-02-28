@@ -24,7 +24,7 @@ export default function Note({ note }) {
       <p id="content">{note.content}</p>
       <p id="date-time">
         <span>{getDate()}</span>
-        <img src="../assets/ellipse.svg" alt="ellipse dot" />
+        <img src="assets/ellipse.svg" alt="ellipse dot" />
         <span>{getTime()}</span>
       </p>
     </div>

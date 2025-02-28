@@ -6,7 +6,7 @@ export default function NotesHome() {
     <div id='notes-container'>
       <EmptyNotes />
       <div id="notes-footer">
-        <img src="../assets/lock.svg" alt="lock icon" />
+        <img src="assets/lock.svg" alt="lock icon" />
         <span>end-to-end encrypted</span>
       </div>
     </div>

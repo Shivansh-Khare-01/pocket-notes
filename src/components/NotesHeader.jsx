@@ -10,7 +10,7 @@ export default function NotesHeader({ group, setSelectedGroup }) {
 
   return (
     <header id="notes-header">
-      <img onClick={() => setSelectedGroup(null)} id="back-button" src="../assets/back-arrow.svg" alt="back icon" />
+      <img onClick={() => setSelectedGroup(null)} id="back-button" src="assets/back-arrow.svg" alt="back icon" />
       <div id="item-image" style={{ backgroundColor: group.color }}>
         {groupLogo}
       </div>
